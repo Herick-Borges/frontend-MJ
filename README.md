@@ -9,8 +9,6 @@ Projeto front-end em React + Vite — entregue como teste técnico. O objetivo �
 - [Como rodar](#como-rodar)
 - [Scripts úteis](#scripts-uteis)
 - [Padrões e convenções](#padroes-e-convencoes)
-- [Contribuição](#contribuicao)
-- [Licença](#licenca)
 
 ## Sobre
 
