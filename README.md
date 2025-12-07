@@ -1,16 +1,58 @@
-# React + Vite
+# Frontend-MJ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend-MJ é um projeto front-end desenvolvido em React + Vite como teste técnico. Ele apresenta uma interface modular e estilizada com SCSS, organizada para facilitar manutenção e escalabilidade.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 18
+- Vite
+- SCSS
+- ESLint
 
-## React Compiler
+## Como executar
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Herick-Borges/frontend-MJ.git
+Instale as dependências:
 
-## Expanding the ESLint configuration
+bash
+Copiar código
+npm install
+Inicie o projeto:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+bash
+Copiar código
+npm run dev
+Abra no navegador:
+
+arduino
+Copiar código
+http://localhost:5173
+Estrutura do projeto
+src/ - código fonte
+
+components/ - componentes React reutilizáveis
+
+styles/ - arquivos SCSS
+
+public/ - assets públicos, imagens e ícones
+
+Status
+Concluído como teste técnico. Funcional no ambiente de desenvolvimento.
+
+Observações
+Este projeto é focado em demonstrar habilidades em React, Vite e organização de front-end. Estrutura modular e boas práticas de codificação foram priorizadas.
+
+yaml
+Copiar código
+
+---
+
+Se você quiser, posso **criar uma versão ainda mais “visual e atrativa”**, com cores/emoji ou pequenas seções para deixar mais chamativo para recrutador, mantendo o estilo profissional. Quer que eu faça isso também?
+
+
+
+
+
+
