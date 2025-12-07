@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #0f62fe;
+    --color-primary-600: #0753d1;
+    --color-bg: #0b1220; 
+    --color-surface: rgba(10, 20, 40, 0.6);
+    --color-card: rgba(255,255,255,0.06);
+    --color-text: #e6f0ff;
+    --color-muted: rgba(230,240,255,0.6);
+    --accent: rgba(15,98,254,0.12);
+    --radius: 12px;
+    --font-stack: Inter, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+* {
+    font-family: var(--font-stack);
+}
+
+.App {
+    min-height: 100vh;
+    background: var(--color-bg);
+    color: var(--color-text);
+}

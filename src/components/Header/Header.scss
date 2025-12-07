@@ -1,0 +1,53 @@
+.app-header {
+  background: transparent; 
+  color: #fff;
+  padding: 8px 16px; 
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px; 
+  }
+
+  .ant-typography {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  @media (max-width: 600px) {
+    padding: 6px 12px;
+    > div {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.page-icon {
+  color: var(--color-primary);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.sep {
+  color: rgba(7,83,209,0.6);
+  margin: 0 6px;
+}
+
+.page-title {
+  color: var(--color-primary-600);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+

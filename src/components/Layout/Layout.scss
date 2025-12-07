@@ -1,0 +1,22 @@
+.app-layout {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(6,18,40,0.6), rgba(3,10,25,0.8));
+}
+
+.app-sider {
+  background: linear-gradient(180deg, rgba(2,8,20,0.6), rgba(2,8,20,0.75));
+  color: var(--color-text);
+  padding-top: 20px;
+  border-right: 1px solid rgba(255,255,255,0.03);
+}
+
+.app-content {
+  margin: 24px 16px;
+  background: transparent;
+}
+
+.app-main {
+  padding: 24px;
+  background: rgba(255,255,255,0.02);
+  border-radius: 8px;
+}
